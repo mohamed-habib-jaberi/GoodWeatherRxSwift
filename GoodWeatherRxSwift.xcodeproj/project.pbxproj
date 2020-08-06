@@ -14,9 +14,12 @@
 		6147005724DC372800C58F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6147005624DC372800C58F7A /* Assets.xcassets */; };
 		6147005A24DC372800C58F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6147005824DC372800C58F7A /* LaunchScreen.storyboard */; };
 		6147006424DC3FED00C58F7A /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147006324DC3FED00C58F7A /* WeatherResult.swift */; };
+		9F53B0DE0BD7D03A2E3C9E7D /* libPods-GoodWeatherRxSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05236D2104B15A11971782BB /* libPods-GoodWeatherRxSwift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05236D2104B15A11971782BB /* libPods-GoodWeatherRxSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoodWeatherRxSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06625545760A1A1FCF95BC0A /* Pods-GoodWeatherRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeatherRxSwift.release.xcconfig"; path = "Target Support Files/Pods-GoodWeatherRxSwift/Pods-GoodWeatherRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		6147004A24DC372400C58F7A /* GoodWeatherRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWeatherRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6147004D24DC372400C58F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6147004F24DC372400C58F7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		6147005924DC372800C58F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6147005B24DC372800C58F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6147006324DC3FED00C58F7A /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
+		D8FC5A8E5D58579D098C02B8 /* Pods-GoodWeatherRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeatherRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-GoodWeatherRxSwift/Pods-GoodWeatherRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F53B0DE0BD7D03A2E3C9E7D /* libPods-GoodWeatherRxSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				6147004C24DC372400C58F7A /* GoodWeatherRxSwift */,
 				6147004B24DC372400C58F7A /* Products */,
+				C03A71A9425E7F312B43BF45 /* Pods */,
+				C575FAE641600EC43E83D61D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +93,24 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		C03A71A9425E7F312B43BF45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC5A8E5D58579D098C02B8 /* Pods-GoodWeatherRxSwift.debug.xcconfig */,
+				06625545760A1A1FCF95BC0A /* Pods-GoodWeatherRxSwift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C575FAE641600EC43E83D61D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05236D2104B15A11971782BB /* libPods-GoodWeatherRxSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,6 +118,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6147005E24DC372800C58F7A /* Build configuration list for PBXNativeTarget "GoodWeatherRxSwift" */;
 			buildPhases = (
+				13408D9682E89AF5D43F9D5D /* [CP] Check Pods Manifest.lock */,
 				6147004624DC372400C58F7A /* Sources */,
 				6147004724DC372400C58F7A /* Frameworks */,
 				6147004824DC372400C58F7A /* Resources */,
@@ -151,6 +177,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13408D9682E89AF5D43F9D5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodWeatherRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6147004624DC372400C58F7A /* Sources */ = {
@@ -302,6 +353,7 @@
 		};
 		6147005F24DC372800C58F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FC5A8E5D58579D098C02B8 /* Pods-GoodWeatherRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +372,7 @@
 		};
 		6147006024DC372800C58F7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06625545760A1A1FCF95BC0A /* Pods-GoodWeatherRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

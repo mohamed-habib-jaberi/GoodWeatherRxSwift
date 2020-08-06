@@ -1,0 +1,6 @@
+module Pods_GoodWeatherRxSwift {
+  umbrella header "Pods-GoodWeatherRxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
