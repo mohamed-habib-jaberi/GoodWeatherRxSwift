@@ -15,6 +15,7 @@
 		6147005A24DC372800C58F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6147005824DC372800C58F7A /* LaunchScreen.storyboard */; };
 		6147006424DC3FED00C58F7A /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147006324DC3FED00C58F7A /* WeatherResult.swift */; };
 		6147006724DC4F7700C58F7A /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147006624DC4F7700C58F7A /* URLRequest+Extensions.swift */; };
+		6147006924DC5E4900C58F7A /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147006824DC5E4900C58F7A /* URL+Extensions.swift */; };
 		9F53B0DE0BD7D03A2E3C9E7D /* libPods-GoodWeatherRxSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05236D2104B15A11971782BB /* libPods-GoodWeatherRxSwift.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		6147005B24DC372800C58F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6147006324DC3FED00C58F7A /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
 		6147006624DC4F7700C58F7A /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		6147006824DC5E4900C58F7A /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		D8FC5A8E5D58579D098C02B8 /* Pods-GoodWeatherRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWeatherRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-GoodWeatherRxSwift/Pods-GoodWeatherRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6147006624DC4F7700C58F7A /* URLRequest+Extensions.swift */,
+				6147006824DC5E4900C58F7A /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6147005224DC372400C58F7A /* ViewController.swift in Sources */,
+				6147006924DC5E4900C58F7A /* URL+Extensions.swift in Sources */,
 				6147006424DC3FED00C58F7A /* WeatherResult.swift in Sources */,
 				6147004E24DC372400C58F7A /* AppDelegate.swift in Sources */,
 				6147006724DC4F7700C58F7A /* URLRequest+Extensions.swift in Sources */,
